@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lantern Ledger — a tiny original card game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage"><canvas id="game" width="1280" height="800" aria-label="Lantern Ledger card game"></canvas></div>
+<noscript>Lantern Ledger needs JavaScript enabled.</noscript>
+
+<!-- One classic script per module, so the game also opens straight from file://. -->
+<script src="src/draw.js"></script>
+<script src="src/card-data.js"></script>
+<script src="src/deck.js"></script>
+<script src="src/hand-evaluator.js"></script>
+<script src="src/opponent.js"></script>
+<script src="src/state.js"></script>
+<script src="src/rules.js"></script>
+<script src="src/animation.js"></script>
+<script src="src/hud.js"></script>
+<script src="src/screens.js"></script>
+<script src="src/render.js"></script>
+<script src="src/input.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>

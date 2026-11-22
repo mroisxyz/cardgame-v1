@@ -1,0 +1,17 @@
+/* Lantern Ledger — a dark table, a warm pool of light, and honest, readable cards. */
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #05080c; overflow: hidden; }
+body {
+  display: flex; align-items: center; justify-content: center;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+#stage { position: relative; line-height: 0; box-shadow: 0 0 90px rgba(0,0,0,.9); }
+canvas {
+  display: block; background: #070b10; cursor: pointer;
+  image-rendering: auto; touch-action: manipulation;
+}
+noscript {
+  position: absolute; top: 12px; left: 12px; line-height: 1.4;
+  color: #e8dfc8; font: 16px Georgia, serif;
+}
